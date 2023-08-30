@@ -5,11 +5,11 @@ let package = Package(
     name: "Motion",
     // platforms: [.iOS("8.0")],
     products: [
-        .library(name: "Motion", targets: ["Motion"])
+        .library(name: "MotionSDK", targets: ["MotionSDK"])
     ],
     targets: [
         .target(
-            name: "Motion",
+            name: "MotionSDK",
             path: "Sources"
         )
     ]
